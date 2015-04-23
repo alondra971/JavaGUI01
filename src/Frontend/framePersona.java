@@ -13,7 +13,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author LUIS MILLER
+ * @author Parisan
  */
 public class framePersona extends javax.swing.JFrame {
 
@@ -31,20 +31,7 @@ public class framePersona extends javax.swing.JFrame {
     
     this.tablePersona.setModel(modelo);
     
-    }
- /* private void bloquearcontroles() {
-      
-    TextApe.setEnabled(false);
-    Texnombre.setEnabled(false);
-    TextDNI.setEnabled(false);
-    TextTelefono.setEnabled(false);
-    TextDireccion.setEnabled(false);
-    BnNuevo.setEnabled(false);
-    BnGuardar.setEnabled(false);
-    DatosPersonales.setEnabled(false);
-    BnGuardar.setEnabled(false);
-    BnNuevo.setEnabled(true);
-    }*/
+    } 
     
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
@@ -146,8 +133,6 @@ public class framePersona extends javax.swing.JFrame {
         });
         DatosPersonales.add(TextDireccion);
         TextDireccion.setBounds(100, 180, 100, 25);
-
-        jButton1.setIcon(new javax.swing.ImageIcon("C:\\Users\\LUIS MILLER\\Pictures\\senin_modo.jpg")); // NOI18N
         DatosPersonales.add(jButton1);
         jButton1.setBounds(250, 10, 150, 190);
 
@@ -376,6 +361,7 @@ public class framePersona extends javax.swing.JFrame {
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
+            @Override
             public void run() {
                 new framePersona().setVisible(true);
             }

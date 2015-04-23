@@ -10,7 +10,7 @@ import javax.swing.JFrame;
 import javax.swing.plaf.PanelUI;
 /**
  *
- * @author LUIS MILLER
+ * @author Parisan
  */
 public class FormMein extends javax.swing.JFrame {
 
@@ -48,7 +48,6 @@ public class FormMein extends javax.swing.JFrame {
         Persona = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setPreferredSize(new java.awt.Dimension(400, 500));
         setResizable(false);
         addComponentListener(new java.awt.event.ComponentAdapter() {
             public void componentHidden(java.awt.event.ComponentEvent evt) {
