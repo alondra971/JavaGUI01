@@ -15,7 +15,7 @@ import javax.swing.JPanel;
 
 /**
  *
- * @author LUIS MILLER
+ * @author Parisan
  */
 public class Fondo extends JPanel{
   
@@ -24,7 +24,7 @@ public class Fondo extends JPanel{
     public void paintComponent(Graphics g) {
         Dimension tam = getSize();
         
-     ImageIcon image = new ImageIcon(new ImageIcon(getClass().getResource("/recursos/Stani_Large.png")).getImage());
+     ImageIcon image = new ImageIcon(new ImageIcon(getClass().getResource("/recursos/dibujo.png")).getImage());
      g.drawImage(image.getImage(), 0, 0, tam.width, tam.height,null);
         
     }

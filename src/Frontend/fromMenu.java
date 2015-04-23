@@ -12,9 +12,9 @@ import javax.swing.plaf.PanelUI;
  *
  * @author Parisan
  */
-public class FormMein extends javax.swing.JFrame {
+public class fromMenu extends javax.swing.JFrame {
 
-    public FormMein() {
+    public fromMenu() {
         initComponents();
         this.setSize(400, 500);
         add(new Fondo());
@@ -137,10 +137,10 @@ public class FormMein extends javax.swing.JFrame {
 
     private void PersonaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PersonaActionPerformed
         
-        framePersona fp = new framePersona ();
+        fromPersona fp = new fromPersona ();
         fp.setVisible(true);
         fp.setSize(450, 500);
-       // new framePersona().setVisible(true);
+       // new fromPersona().setVisible(true);
         
     }//GEN-LAST:event_PersonaActionPerformed
 
@@ -166,19 +166,19 @@ public class FormMein extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(FormMein.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(fromMenu.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(FormMein.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(fromMenu.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(FormMein.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(fromMenu.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(FormMein.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(fromMenu.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new FormMein().setVisible(true);
+                new fromMenu().setVisible(true);
             }
         });
     }
